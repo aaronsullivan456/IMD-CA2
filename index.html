@@ -1,0 +1,549 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Aaron Sullivan Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="styles.css">
+
+	<style>
+		
+	</style>
+
+</head>
+
+<body>
+	
+<!-- Start of hero image 
+https://www.w3schools.com/bootstrap4/bootstrap_jumbotron.asp
+https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp
+https://www.w3schools.com/bootstrap/bootstrap_images.asp
+https://www.w3schools.com/bootstrap/bootstrap_ref_css_images.asp
+https://resizeimage.net/ -->
+<div class="jumbotron jumbotron-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1>Aaron Sullivan</h1>
+				<h2>BcS (Hons) in Computing with Data Analysis - TU Dublin</h2>
+			</div>
+			<div class="col-md-3">
+				<img src="img/me.jpg" class="img-circle" alt="Me">
+			</div>
+			<div class="col-md-3">
+				<div class="row">
+					<a href="https://www.linkedin.com/in/aaron-sullivan/" target="_blank">
+						<img src="img/linkedin.jpg" alt="linkedin">
+					</a>
+				</div>
+				<div class="row">
+					<br/><br/>
+				</div>
+				<div class="row">
+					<a href="https://github.com/x00150026" target="_blank">
+						<img src="img/github.png" alt="github">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End of hero image -->
+
+
+<!-- Start of Navbar
+https://stackoverflow.com/questions/49674001/bootstrap-4-fixed-top-navbar-shows-collapsed-and-hides-content
+https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+https://stackoverflow.com/questions/18410742/remove-space-between-navbar-and-jumbotron-in-bootstrap-3
+-->
+<div id="navbar">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#">Aaron Sullivan</a>
+	</div>
+	<ul class="nav navbar-nav" >
+		<li><a href="#aboutMe">About me</a></li>
+		<li><a href="#education">Education</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#workExp">Work Experience</a></li>
+		<li><a href="#hobbiesInterests">Hobbies & Interests</a></li>
+		<li><a href="#contact">Contact me</a></li>
+		<li><a href="bootstrapRef.html" target="_blank">Bootstrap References Page</a></li>
+	</ul>
+</div>
+<!-- End of Navbar -->
+
+<!-- Start of About Me -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-6" id="aboutMe">
+			<h1>About me</h1>
+			<p>I am 21 years old and currently in my final year of my BsC Hons in Computing with Data Analysis in TU Dublin. I enjoy using different technologies to develop scalable solutions that address particular issues. My career aim is to find a challenging IT position in a progressive company. The position would offer early responsibility and an opportunity to innovate against tangible goals and objectives.</p>
+		</div>
+
+	</div>
+</div>       
+<!-- End of About me -->
+
+<!-- Start of Download and Contact --> 
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+			<div class="text-center mb-3">
+				<button class="banner-button"><a href="AaronSullivan.docx" download="AaronSullivan.docx">DownloadCV</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="text-center mb-3">
+				<button class="banner-button">Contact Me</a>
+				</div>
+		</div>
+		</div>
+<!-- End of Download and Contact -->
+
+<!-- Start of Education 
+	Toggleable / Dynamic Tabs
+	https://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp -->
+	<div class="container">
+		<div id="education">
+			<h1>Education</h1>
+			<p>Below are my up to date grades.</p>
+
+			<ul class="nav nav-pills">
+				<li class="active"><a  href="#1" data-toggle="tab">1st Year</a></li>
+				<li><a  href="#2" data-toggle="tab">2nd Year</a></li>
+				<li><a  href="#3" data-toggle="tab">3rd Year</a></li>
+				<li><a  href="#4" data-toggle="tab">4th Year</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div class="tab-pane active" id="1">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Semester 1</th>
+								<th></th>
+								<th>Semester 2</th>
+							</tr>
+						</thead>
+						<thead>
+							<tr>
+								<th>Subject</th>
+								<th>Grade</th>
+								<th>Subject</th>
+								<th>Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Software Development 1</td>
+								<td>A</td>
+								<td>Software Development 2</td>
+								<td>B-</td>
+							</tr>
+							<tr>
+								<td>Computer Architecture</td>
+								<td>C</td>
+								<td>Object Oriented System Analysis</td>
+								<td>B-</td>
+							</tr>
+							<tr>
+								<td>Fundament of Interface & Web</td>
+								<td>C</td>
+								<td>Social Media Communications</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Business & Information Sys</td>
+								<td>C+</td>
+								<td>Statistics</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Discrete Mathematics 1</td>
+								<td>B</td>
+								<td>Database Fundamentals</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>Learning to Learn at 3rd Lvl</td>
+								<td>B</td>
+								<td>Operating Syst Fundamentals</td>
+								<td>B+</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="tab-pane" id="2">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Semester 3</th>
+								<th></th>
+								<th>Semester 4</th>
+							</tr>
+						</thead>
+						<thead>
+							<tr>
+								<th>Subject</th>
+								<th>Grade</th>
+								<th>Subject</th>
+								<th>Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Software Development 3</td>
+								<td>C</td>
+								<td>Software Development 4</td>
+								<td>C</td>
+							</tr>
+							<tr>
+								<td>Software Qual Ass & Testing</td>
+								<td>A</td>
+								<td>Project</td>
+								<td>C+</td>
+							</tr>
+							<tr>
+								<td>Network Fundementals</td>
+								<td>B+</td>
+								<td>Routing & Switching Ess</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>Adv Database Technologies</td>
+								<td>C+</td>
+								<td>Management Science</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>Discrete Mathematics 2</td>
+								<td>B+</td>
+								<td>Database Admin & Analysis</td>
+								<td>C+</td>
+							</tr>
+							<tr>
+								<td>Client side Web Development</td>
+								<td>C+</td>
+								<td>Information Security</td>
+								<td>C</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="tab-pane" id="3">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Semester 5</th>
+								<th></th>
+								<th>Semester 6</th>
+							</tr>
+						</thead>
+						<thead>
+							<tr>
+								<th>Subject</th>
+								<th>Grade</th>
+								<th>Subject</th>
+								<th>Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Server-side Web Development</td>
+								<td>C</td>
+								<td>Work Experience</td>
+								<td>Pass</td>
+							</tr>
+							<tr>
+								<td>Operating Systems</td>
+								<td>C+</td>
+							</tr>
+							<tr>
+								<td> Cloud Service & Distrib Comp</td>
+								<td>C</td>
+							</tr>
+							<tr>
+								<td>Big Data Technologies</td>
+								<td>D</td>
+							</tr>
+							<tr>
+								<td>Data Structures & Algorithms</td>
+								<td>C</td>
+							</tr>
+							<tr>
+								<td>Data Analysis</td>
+								<td>C</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="tab-pane" id="4">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Semester 7</th>
+								<th></th>
+								<th>Semester 8</th>
+							</tr>
+						</thead>
+						<thead>
+							<tr>
+								<th>Subject</th>
+								<th>Grade</th>
+								<th>Subject</th>
+								<th>Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Project</td>
+								<td>TBD</td>
+								<td>Project 2</td>
+								<td>TBD</td>
+							</tr>
+							<tr>
+								<td>Applied Machine Learning</td>
+								<td>TBD</td>
+								<td>IT Governance and Quality</td>
+								<td>TBD</td>
+							</tr>
+							<tr>
+								<td>Interactive Media Design & Visualisation</td>
+								<td>TBD</td>
+								<td>Data Analysis and Programming</td>
+								<td>TBD</td>
+							</tr>
+							<tr>
+								<td>Social Media Analysis</td>
+								<td>TBD</td>
+								<td>Applied AI and Deep Learning</td>
+								<td>TBD</td>
+							</tr>
+							<tr>
+								<td>Information Management</td>
+								<td>TBD</td>
+								<td>Operations Research</td>
+								<td>TBD</td>
+							</tr>
+							<tr>
+								<td>Enterprise Performance Architecture</td>
+								<td>TBD</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+			</div>  
+		</div>
+	</div>
+	<!-- End of Education -->
+
+<!-- Start of Projects 
+Used accordian from W3schools
+https://www.w3schools.com/howto/howto_js_accordion.asp
+-->	
+<div class="container">
+	<div class="row">
+		<div id="projects">
+			<h1>Projects</h1>
+
+			<button class="accordion">4th Year Project</button>
+			<div class="panel">
+				<img src="img/plan.png" alt="planningRoadmap">
+				<p>The commercial airline industry is the foundation of our global transportation system. In 2012 approximately 3 billion passengers travelled by plane. The entire industry generates more than $800bn in revenue each year. The US airline industry accounts for $190bn of that. Airlines have seen massive optimizations. Despite this, passengers are often left frustrated as their flights are delayed. According to the Bureau of Transportation Statistics (BTS) about 20% of all flights are delayed. A flight is considered delayed by the BTS if its arrival or departure time is 15 minutes later than scheduled. In 2007 these delays cost the US economy approximately $32.9bn. Poor weather conditions are one of the main causes for these delays.</p>
+
+				<p>My aim is to create a ML model that can accurately predict whether a flight will be delayed. I would also like to be able to predict how long it will be delayed for. I will do this by creating a ML model using historical flight data and historical weather data. In addition to this I would like to create a front end where a user can check my model’s prediction on their planned flight. As you can see I am currently in the Data Acquisition & Formatting stage.</p>
+
+			</div>
+
+			<button class="accordion">3th Year Project</button>
+			<div class="panel">
+				<img src="img/boston.jpg" alt="bostonHeatMap">
+				<br/><br/>
+				<p>Crime in America has fallen over the last quarter century, with exceptions such as rape and hate crimes. Despite this, the public believes that it is rising. This could be due to the increasing amount of information that we take in via technology.</p>
+				<p>I analysed data on crime in Boston using Python. In the few years of data that I have I tried to see if Boston follows the same trends and if not, why? </p>
+				<p>I aimed to find distribution patterns in our data and whether or not socioeconomic factors cause them. I also looked at the relationships between our variables and try to find correlations which will help me answer questions about the development of crime in Boston.</p>
+			</div>
+
+			<button class="accordion">2th Year Project</button>
+			<div class="panel">
+				<img src="img/boxx.jpg" alt="boxx">
+				<br/><br/>
+				<p>I took part in a team project involving the development of an online shopping website using Java Play, which included a database for users and products.</p>
+				<p>Users who had the role of Admin could add, update and delete products. Customers could register an account and login, browse products, add desired products to their basket then simulate orders.</p>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- End of Projects -->
+
+<!--Start of Work Experience -->
+<div class="container">
+	<div id="workExp">
+		<h1>Work Experience</h1>
+		<br/><br/>
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-3">
+				<img src="img/clanwilliam.jpg" class="img-circle" alt="clanwilliam">
+			</div>
+			<div class="col-md-8">
+				<h3>Claimsure Slainte - Clanwilliam Health</h3>
+				<h4>Integration Engineer Intern</h4>
+				<h4>January 2020 - April 2020</h4>
+				<p>Company Description: Claimsure is used for the generation, collation, submission, tracking and processing of approximately €2.3bn worth of health insurance claims in Ireland annually.</p> 
+				<p><a href="https://www.claimsureslainte.com/">https://www.claimsureslainte.com/</a></p>
+				<p>Main Responsibilities: Correcting errors and rerunning tasks on Iguana, the integration platform.</p>
+				<p>Providing Technical Support to Claimsure Users at HSE Public Hospital Network & Selected Private Hospitals</p>
+				<p>Managing eClient Tickets via 'Kayako Ticketing System'</p>
+				<p>Writing/Executing SQL Queries/Stored Procedure/SQL Scripts using SQL Management Studio</p>
+				<p>User acceptance testing</p>
+			</div>
+		</div>
+
+		<br/><br/>
+		<div class="row">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-8">
+				<h3>Uniphar</h3>
+				<h4>Order Picker</h4>
+				<h4>July 2018 - January 2019</h4>
+				<p>Company Description: Uniphar is a pharmaceutical company based in Cheeverstown.</p> 
+				<p><a href="https://www.uniphar.ie/">https://www.uniphar.ie/</a></p>
+				<p>Main Responsibilities: Stock Management. Worked with SSI Schafer stock management systems to ensure Inventory count was correct. Picked orders.<p>
+					<p>Soft Skills: Problem Solving, Interpersonal skills, Work Ethic</p>
+				</div>
+				<div class="col-md-3">
+					<img src="img/uniphar.png" class="img-circle" alt="uniphar">
+				</div>
+			</div>
+
+			<br/><br/>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-3">
+				<img src="img/knockadoon.jpg" alt="knockadoon">
+			</div>
+			<div class="col-md-8">
+				<h3>Knockadoon Youth Week</h3>
+				<h4>Volunteer Leader</h4>
+				<h4>June 2014 – July 2016</h4>
+				<p>Company Description: Knockadoon Youth Week is summer camp aimed to provide children from disadvantaged areas with a summer holiday.</p> 
+				<p><a href="https://knockadoonyouthweek.com/">https://knockadoonyouthweek.com/</a></p>
+				<p>Main Responsibilities: Schedule Coordinator. Organizing the summer camps activity schedule, fundraising events and activities for the youth group.</p> 
+				<p>Soft Skills: Communication, Teamwork, Time management</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End of Work Experience -->
+
+<!-- Start of Hobbies & Interests 
+w3schools.com/html/html_lists.asp
+-->
+<div class="container">
+	<div class="row">
+		<div id="hobbiesInterests">
+			<h1>Hobbies & Interests</h1>
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-3">
+				<h3>Professional</h3>
+				<ul>
+					<li>Competed in the Synergy & Tallaght IT hackathon 2018 gaining 1st Prize</li>
+					<li>Attended the Amazon AWS evening classes and a HubSpot training day at the college last semester</li>
+					<li>I am currently learning German and plan to be able to speak it fluently in the future.</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h3>Personal</h3>
+				<ul>
+					<li>Member of the Soccer Club 5 aside League society in Tallaght IT.</li>
+					<li>Membership holder at Tallaght Leisure Centre (Swimming)</li>
+					<li>Astronomy</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>       
+<!-- End of Hobbies & Interests -->
+
+<!-- Start of Contact me
+https://www.w3schools.com/howto/howto_css_contact_form.asp
+-->
+<div class="container">
+	<div id="contact">
+	<form action="action_page.php">
+
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+		<label for="subject">Subject</label>
+		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+		<input type="submit" value="Submit">
+
+	</form>
+</div>
+</div>
+<!-- End of Contact me -->
+
+
+<script>
+	window.onscroll = function() {myFunction()};
+
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		} else {
+			navbar.classList.remove("sticky");
+		}
+	}
+</script>
+
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+    	panel.style.display = "none";
+    } else {
+    	panel.style.display = "block";
+    }
+});
+	}
+</script>
+
+</body>
+</html>
